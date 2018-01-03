@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAIC,4BAAc;EACb,MAAM,EAAE,SAAS;EACjB,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;EAElB,+BAAG;IACF,WAAW,ECVF,QAAQ;IDWjB,MAAM,EAAE,SAAS;IACjB,KAAK,EAAE,GAAG;EAGX,8BAAE;IACD,KAAK,EELK,OAAO;IFOjB,oCAAQ;MACP,eAAe,EAAE,IAAI;MACrB,KAAK,EEVU,OAAO",
-"sources": ["style.scss","../../style/variables.scss","../../style/pallete.scss"],
-"names": [],
-"file": "style.css"
-}
