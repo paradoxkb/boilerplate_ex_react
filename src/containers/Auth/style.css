@@ -1,0 +1,35 @@
+.row-auth {
+  margin-top: 30vh;
+  text-align: center; }
+
+#auth_form {
+  margin: 0 auto; }
+  #auth_form .form-group {
+    min-height: 30px; }
+  #auth_form label {
+    margin-top: 5px;
+    text-align: left; }
+  #auth_form #login_button_div {
+    position: relative;
+    height: 30px;
+    margin: 0 15px; }
+    #auth_form #login_button_div span {
+      position: absolute;
+      left: 0; }
+    #auth_form #login_button_div .span-register {
+      top: -5px; }
+    #auth_form #login_button_div .span-restore {
+      top: 15px; }
+    #auth_form #login_button_div input[type=button] {
+      position: absolute;
+      right: 0; }
+  #auth_form .auth-border {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    border: 1px solid white; }
+  #auth_form img:hover {
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOE,oCAAa;EACZ,MAAM,EAAE,KAAK;EAEb,wCAAI;IACH,MAAM,EAAE,MAAM;AAKf,2CAAS;EACR,KAAK,ECbY,OAAO",
+"sources": ["style.scss","../../style/pallete.scss"],
+"names": [],
+"file": "style.css"
+}

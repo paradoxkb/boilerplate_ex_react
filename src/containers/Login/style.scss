@@ -1,0 +1,19 @@
+.login {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	display: flex;
+	align-items: center;
+	height: 100%;
+
+    img {
+  	    width: 32px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .welcome-span {
+      margin-right: 20px;
+    }
+}

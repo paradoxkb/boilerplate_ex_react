@@ -1,0 +1,13 @@
+#register_form {
+  margin: 30vh auto;
+  text-align: center; }
+  #register_form .form-group {
+    min-height: 30px; }
+  #register_form input[type=button] {
+    float: right;
+    margin-right: 15px; }
+  #register_form label {
+    bottom: -6px;
+    text-align: left; }
+
+/*# sourceMappingURL=style.css.map */

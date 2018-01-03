@@ -1,0 +1,10 @@
+html, body, #mount_point .container-fluid {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-width: 1150px;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+/*# sourceMappingURL=style.css.map */

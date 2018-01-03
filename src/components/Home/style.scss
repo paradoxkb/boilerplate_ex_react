@@ -1,0 +1,22 @@
+.div-home {
+
+	width: 50%;
+	margin: 0 auto;
+
+	.slick-slider {
+
+		.slick-track {
+			height: 450px;
+
+			img {
+				margin: 0 auto;
+			}
+		}
+
+		.slick-arrow {
+			&:before {
+				color: blanchedalmond;
+			}
+		}
+	}
+}

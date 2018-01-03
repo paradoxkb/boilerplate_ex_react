@@ -1,0 +1,10 @@
+#add_article {
+  text-align: center;
+  margin-bottom: 60px; }
+  #add_article .form-group {
+    margin: 10px auto;
+    width: 60%; }
+    #add_article .form-group input[type=submit] {
+      float: right; }
+
+/*# sourceMappingURL=style.css.map */

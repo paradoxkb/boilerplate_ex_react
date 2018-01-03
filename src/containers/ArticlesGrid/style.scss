@@ -1,0 +1,25 @@
+@import '../../style/pallete.scss';
+@import '../../style/variables.scss';
+
+.articles-grid {
+	.article-link {
+		margin: 10px auto;
+		width: 80%;
+		text-align: center;
+
+		h1 {
+			font-family: $fontTitle;
+			margin: 20px auto;
+			width: 80%;
+		}
+
+		a {
+			color: $link_color;
+
+			&:hover {
+				text-decoration: none;
+				color: $hover_link_color;
+			}
+		}
+	}
+}
