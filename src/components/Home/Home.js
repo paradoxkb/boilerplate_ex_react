@@ -6,6 +6,8 @@ import Slider from 'react-slick'
 import 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import Uploader from '../Uploader/Uploader'
+import ImageComponent from '../ImageComponent/ImageComponent'
 import './style.scss'
 
 const slide1 = require('../../../public/images/slider/0 (6).jpg')
@@ -24,11 +26,13 @@ class Home extends React.Component {
 		}
         return (
             <div className='div-home'>
-                <Slider {...sliderSettings}>
+				<ImageComponent/>
+                {/*<Slider {...sliderSettings}>
 					<div><img src={slide1} alt='slide-1' /></div>
 					<div><img src={slide2} alt='slide-2' /></div>
 					<div><img src={slide3} alt='slide-3' /></div>
 				</Slider>
+				<Uploader/>*/}
             </div>
         )
     }

@@ -37,7 +37,7 @@ module.exports = {
 			}
 		}, {
 			test: /\.json?$/,
-			loader: 'json'
+			loader: 'json-loader'
 		}, {
 			test: /\.css$/,
 			use: [
@@ -57,5 +57,11 @@ module.exports = {
 			{ test: /\.(woff2?|svg|jpe?g|png|gif|ico)$/, loader: "file-loader?name=./assets/images/[name].[ext]" },
 			{ test: /\.(ttf|eot)$/, loader: "file-loader" }
 		]
-	}
+	},
+    node: {
+        console: true,
+        fs: 'empty',
+        net: 'empty',
+        tls: 'empty'
+    }
 }

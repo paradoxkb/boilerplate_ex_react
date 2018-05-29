@@ -8,12 +8,12 @@ const bodyParser = require('body-parser')
 const config = require('../config/webpack.dev.js')
 
 const isDeveloping = process.env.NODE_ENV !== 'production'
-const port = isDeveloping ? 3000 : process.env.PORT
+const port = isDeveloping ? 8888 : process.env.PORT
 const app = express()
 
 app.use(bodyParser())
 
-require('./db/mongoose')
+// require('./db/mongoose')
 require('./router')(app)
 
 if (isDeveloping) {
