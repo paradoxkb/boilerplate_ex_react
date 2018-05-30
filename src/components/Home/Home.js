@@ -5,6 +5,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'react-slick'
 import 'slick-carousel/slick/slick.css'
+import FileDownload from '../FileDownload/FileDownload'
 import 'slick-carousel/slick/slick-theme.css'
 import './style.scss'
 
@@ -29,6 +30,7 @@ class Home extends React.Component {
 					<div><img src={slide2} alt='slide-2' /></div>
 					<div><img src={slide3} alt='slide-3' /></div>
 				</Slider>
+				<FileDownload />
             </div>
         )
     }
